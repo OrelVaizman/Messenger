@@ -1,0 +1,23 @@
+{
+  "name": "messengerapp-backend",
+  "version": "1.0.0",
+  "main": "db.service.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "loader": "^2.1.1",
+    "mongodb": "^3.6.3",
+    "nodemon": "^2.0.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "npm": "set NODE_ENV=development & nodemon app.js",
+    "start-dev": "set NODE_ENV=development & nodemon app.js",
+    "server:prod": "node app.js",
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "author": "Orel Vaizman"
+}

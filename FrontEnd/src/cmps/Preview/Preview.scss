@@ -1,0 +1,20 @@
+@import "./src/styles/setup";
+
+.preview {
+        .gravatar-wrraper {
+                margin-right: 10px;
+        }
+
+        .info {
+                .email-info {
+                        font-weight: bold;
+                }
+
+                .message-info {
+                        color: grey;
+                        line-break: anywhere;
+
+                }
+        }
+
+}
