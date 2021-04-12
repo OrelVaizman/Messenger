@@ -26,8 +26,10 @@ const MessengerApp = (props) => {
     return (
         <section className="messenger-app flex column align-center">
             <div className="welcome-msg container flex center-center">Welcome SkillSet!</div>
-            <UserForm backgroundColor="rgb(239,239,239)" submitMessage={submitMessage} />
-            {messages && <Feed backgroundColor="white" messages={messages} setFilterBy={setFilterBy} filterBy={filterBy} />}
+            <div className="app-container">
+                <UserForm backgroundColor="rgb(239,239,239)" submitMessage={submitMessage} />
+                {messages && <Feed backgroundColor="white" messages={messages} setFilterBy={setFilterBy} filterBy={filterBy} />}
+            </div>
         </section>
     )
 

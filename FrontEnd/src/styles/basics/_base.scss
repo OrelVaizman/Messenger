@@ -33,9 +33,24 @@ body {
 
 }
 
-input,
 button {
   font-family: inherit;
+}
+
+
+
+input:focus,
+textarea:focus {
+  outline: 0;
+  border: 1px solid lightblue;
+}
+
+input,
+textarea {
+  font-family: inherit;
+  border: 1px solid lightgrey;
+  font-size: 16px;
+  resize: none;
 }
 
 button {

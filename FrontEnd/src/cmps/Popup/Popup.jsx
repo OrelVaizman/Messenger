@@ -10,6 +10,7 @@ const Popup = ({ email }) => {
     useEffect(() => {
         getMessages()
     }, [])
+
     const getMessages = async () => {
         const messages = await MessengerService.getByEmail(email)
         setMessages(messages)
